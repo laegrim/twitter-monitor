@@ -115,7 +115,7 @@ def moniter(api, batch_size, **kwargs):
     locations = kwargs.get('locations')
     
     #stream recording parameters
-    max_capture = kwargs.get('max')
+    max_capture = kwargs.get('max_capture')
     stop_time = kwargs.get('stop_time')
     rate_limit = kwargs.get('rate_limit')
     batch_size = kwargs.get('batch_size', 20)
